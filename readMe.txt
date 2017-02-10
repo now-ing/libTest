@@ -1,3 +1,5 @@
+linux编译c的静态库(libcfun.a)，再编译C++的动态库(libclassfun.so)调用libcfun.a，最后编译在main(cpp文件)中调用.so动态库中类的成员函数。
+
 linux下使用动态库步骤：
 
 ==============================================================
@@ -38,7 +40,5 @@ CC=/usr/local/arm/4.3.2/bin/arm-linux-gcc
 bash: ./xxxx: cannot execute binary file
 
 ==============================================================
-
-linux编译c的静态库(libcfun.a)，再编译C++的动态库(libclassfun.so)调用libcfun.a，最后编译在main(cpp文件)中调用.so动态库中类的成员函数。
 
 

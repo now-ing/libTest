@@ -28,7 +28,7 @@ $(STARGET): 	classfun.cpp \
 		$(CXX) classfun.cpp $(SHAREFLAGS) -o $(STARGET) $(LDFLAGS) -lcfun
 		
 $(MTARGET): 	mainCallTest.cpp
-		$(CXX) mainCallTest.cpp -o mainCallTest $(LDFLAGS) -lclassfun
+		$(CXX) mainCallTest.cpp -o mainCallTest $(LDFLAGS) -lclassfun -lcfun
 
 fun.o:		fun.c \
 		fun.h		
